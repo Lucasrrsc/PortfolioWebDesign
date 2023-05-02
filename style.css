@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -66,7 +65,7 @@ button{
     color: red;
     background: transparent;
     border: solid 1px red;
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     font-size: 12px;
     width: 150px;
@@ -89,7 +88,7 @@ button:hover{
 }
 
 .text h2{
-    color: white;
+    color: red;
     margin-top: 10px;
 }
 
@@ -113,3 +112,10 @@ button:hover{
  .btn{
     margin-top: 10px;
  }
+
+ .container {  
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);  
+}
