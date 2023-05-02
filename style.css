@@ -70,6 +70,8 @@ button{
     font-size: 12px;
     width: 150px;
     cursor: pointer;
+    margin-top: 3px;
+    margin-left: 90px;    
 }
 
 button:hover{
@@ -79,7 +81,7 @@ button:hover{
 }
 
 .container-text{
-    padding: 220px 0 0 350px;
+    padding: 220px 0 0 300px;
 }
 
 .text h3{
