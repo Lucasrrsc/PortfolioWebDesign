@@ -70,8 +70,6 @@ button{
     font-size: 12px;
     width: 150px;
     cursor: pointer;
-    margin-top: 3px;
-    margin-left: 90px;    
 }
 
 button:hover{
