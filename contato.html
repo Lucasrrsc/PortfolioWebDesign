@@ -9,7 +9,7 @@
     <link rel="icon" href="favicon.png">
 </head>
 <body>
-    
+
     <div class="background">
         <header>
         <div class="cabeçalho-link">
@@ -28,18 +28,38 @@
         </div> <!--cabeçalho-->
         </header>
 
-        <div class="container-text">
-            <div class="text">
-                <h2>Meu Contato</h2>
-                <br>
-                <br>
-                <h3> Telefone: (47) 91234-4321
-                <br>
-                <br> Email: mario@encanador.com   
-                </h3>
-               
-            </div> <!--text-->
+        <div class="box-formulario">        
         
+            <div class="formulario">
+                
+                <div class="box-title">
+                  <h1 class="title">Contato<span class="subtitle">Fale conosco agora.</span></h1>
+                </div>
+                <form action="#" method="post">
+                         
+                    <span>
+                        <input type="text" class="input-hidden" id="nome" name="nome" placeholder="Nome" autocomplete="off" required=""/>
+                        <label for="nome"> <i class="icon icon-user-outline"></i> </label>
+                    </span>
+                    <span>
+                        <input type="text" class="input-hidden" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+                        <label for="email"> <i class="icon icon-mail-3"></i> </label>
+                    </span>
+                    <span>
+                        <input type="text" class="input-hidden" id="assunto" name="assunto" placeholder="Assunto" autocomplete="off" required=""/>
+                        <label for="assunto"> <i class="icon icon-info"></i> </label>
+                    </span>
+                    <span>
+                        <textarea type="text" class="textarea-hidden" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+                        <label for="mensagem"> <i class="icon icon-bubble-4"></i> </label>
+                    </span>
+                    <div class="box-btn">
+                         <input type="submit" value="Enviar" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div><!--Box Formulario--> 
+    
     </div> <!---background-->
     <footer>Super Mario © Todos os direitos reservados - 2023</footer>    
 </body>
