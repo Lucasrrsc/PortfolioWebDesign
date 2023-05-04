@@ -55,20 +55,6 @@ header{
     transition: 0.5s;
 }
 
-.logo i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid red;
-    color: red;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
-}
-
 .container-text{
     padding: 220px 0 0 300px;
 }
@@ -96,9 +82,14 @@ header{
  }
 
  .redes-sociais a{
-    color: red;
-    padding: 12px;
-    margin-top: 5px;
+  color: white;
+  transition: 0.5s;
+  margin-top: 5px;
+ }
+
+ .redes-sociais a:hover{
+  color: red;
+  padding: 12px;
  }
 
  .btn{
@@ -133,7 +124,7 @@ header{
     color:white; 
     word-spacing:1px; 
     font-weight:bold; 
-    letter-spacing: 7px;
+    letter-spacing: 4px;
     text-transform: uppercase; 
     font-family:'open_sansregular'; 
     font-weight:500;
@@ -161,14 +152,14 @@ header{
       padding:60px 0;
   }
   .formulario {
-      width: 700px;    
-      padding: 60px 5%;
+      width: 600px;    
+      padding: 15px 4%;
       text-align: center;
   }
   .formulario span {
     position: relative;
     display: flex;
-    margin: 45px 10px;
+    margin: 30px 10px;
   }
   /*input Animado*/
   .input-hidden {
@@ -177,7 +168,7 @@ header{
     padding: 10px 10px 13px 60px;
     font-family: "Open Sans", sans;
     font-weight: 400;
-    color: #232323;
+    color: red;
     background: #ffffff;
     border: 0;
     border-radius: 50px;
@@ -185,7 +176,7 @@ header{
     transition: all .3s ease-in-out;
   }
   .input-hidden::-webkit-input-placeholder {
-    color: #232323;
+    color: red;
     font-weight: 300;
   }
   .input-hidden + label {
@@ -264,7 +255,7 @@ header{
     resize: none;
   }
   .textarea-hidden::-webkit-input-placeholder {
-    color: #232323;
+    color: red;
     font-weight: 300;
   }
   .textarea-hidden + label {
@@ -355,5 +346,5 @@ header{
   }
   .btn-submit:hover {
    
-    background-color:#4c4c4c;
+    background-color:rgba(255, 0, 0, 0.5);
   }
